@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android" 
-           id="cordova.plugin.Brightness"
+           id="cordova.plugin.c22.Brightness"
       version="0.1.0">
     <name>Brightness</name>
 
@@ -26,7 +26,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Brightness">
-                <param name="android-package" value="org.apache.cordova.plugin.Brightness.BrightnessPlugin"/>
+                <param name="android-package" value="org.apache.cordova.plugin.Brightness.c22.BrightnessPlugin"/>
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
